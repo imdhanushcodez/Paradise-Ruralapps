@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/dhanu_home"
+            android:icon="@drawable/dhanu_home"
+            android:title="home"/>
+        <item
+            android:id="@+id/dhanu_exit"
+            android:icon="@drawable/dhanu_exit"
+            android:title="home"/>
+        <item
+            android:id="@+id/dhanu_about"
+            android:icon="@drawable/dhanu_about"
+            android:title="home"/>
+    </group>
+
+</menu>

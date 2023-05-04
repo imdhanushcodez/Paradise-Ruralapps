@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:elevation="20dp">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/la"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/existart">
+        </androidx.appcompat.widget.AppCompatImageButton>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:text="HAND-CRAFTS "
+            android:textColor="#73980b"
+            android:textStyle="bold"
+            android:fontFamily="@font/bruno"
+            android:textSize="17dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="730dp">
+        <ScrollView
+            android:layout_width="407dp"
+            android:layout_height="730dp">
+            <LinearLayout
+                android:layout_width="407dp"
+                android:layout_height="730dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="407dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/pot2"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Pongal clay - Pots - No.1"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶4̶5̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹299"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="35% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.5 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod1"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="200dp">
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="4dp"
+                            android:background="@drawable/purbor"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="190dp"
+                                android:layout_height="90dp"
+                                android:layout_marginLeft="0dp"
+                                android:layout_marginTop="5dp"
+                                android:src="@drawable/pot3"></ImageView>
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="20dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="Kitchen set - Pots - No.2"
+                                android:textColor="@color/black"
+                                android:textSize="15dp"></TextView>
+
+                            <LinearLayout
+                                android:layout_width="200dp"
+                                android:layout_height="20dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="36dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/hebbo"
+                                    android:text="₹ ̶7̶8̶9̶"
+                                    android:textSize="13dp"></TextView>
+
+                                <TextView
+                                    android:layout_width="40dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/hebbo"
+                                    android:text="₹599"
+                                    android:textColor="@color/black"
+                                    android:textSize="13dp"></TextView>
+
+                                <TextView
+                                    android:layout_width="70dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/hebbo"
+                                    android:text="27% off"
+                                    android:textColor="#73980b"
+                                    android:textSize="13dp"
+                                    android:textStyle="bold"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="200dp"
+                                android:layout_height="30dp"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_width="70dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="@drawable/rating23"></ImageView>
+
+                                <TextView
+                                    android:layout_width="100dp"
+                                    android:layout_height="30dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginTop="4dp"
+                                    android:fontFamily="@font/hebbo"
+                                    android:text="4.7 ratings"
+                                    android:textSize="13dp"></TextView>
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="110dp"
+                                android:layout_height="20dp"
+                                android:background="@drawable/agri11"
+                                android:layout_marginLeft="20dp"
+                                android:text="BUY NOW "
+                                android:textColor="@color/white"
+                                android:id="@+id/prod2"></androidx.appcompat.widget.AppCompatButton>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/pot4"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="clay Jug - Pots - No.3"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶3̶0̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹175"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="20% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.4 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod3"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/pot5"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="clay kadaai - Pots - No.4"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶1̶7̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹150"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="10% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.2 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod4"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/pot6"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="clay water pot - No.5"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶3̶0̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹225"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="17% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.2 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod5"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/wood2"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="wood- god - No.6"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶9̶8̶7̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹789"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="26% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.0 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod6"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/wood1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="wood god-No 7"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹9̶0̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹772"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="21% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.4 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod7"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/w33"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="wood- god - No.8"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹1̶0̶2̶0̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹980"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="14% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.2 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod8"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/d11"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Dancing- dolls - No.9"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶5̶0̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹145"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="12% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.2 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod9"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/d12"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="couple - Doll - No.10"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶4̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹170"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="8% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.3 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod10"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/d13"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="woodmadde- dolls - No.11"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹  ̶1̶8̶0̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹100"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="23% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.2 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod11"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/d14"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="couple - Doll - No.12"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶4̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹110"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="20% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.3 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod12"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/le1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="leather-Bag- No.13"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶4̶4̶0̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹343"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="17% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="3.8 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod13"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/flu1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="traditional - Flute - No.14"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶1̶5̶0̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹86"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="20% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.3 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"
+                            android:id="@+id/prod14"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/flo1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="silk-garland-1-No.15"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹  ̶4̶5̶6̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹368"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="19% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.4 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/flo2"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Silk- garland - No.16"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶6̶6̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹137"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="15% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="3.9 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/lea"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Leather-Bag-2-No.17"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹  ̶3̶9̶8̶̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹256"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="13% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.3 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/sc1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Stone- sculpture - No.18"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹3̶7̶8̶6̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹2657"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="32% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.7 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/pot7"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="clay-Lamp-No.19"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶7̶6̶ "
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹165"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="19% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.8 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/sc2"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Stone- sculpture - No.20"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹4̶5̶0̶0̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹3675"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="31% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.7 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="400dp"
+                    android:layout_height="200dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="6dp">
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="190dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/ko1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="Handmade-koodai-No.21"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹ ̶2̶4̶2̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹145"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="27% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.6 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/purbor"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="170dp"
+                            android:layout_height="70dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/ka1"></ImageView>
+
+                        <TextView
+                            android:layout_width="200dp"
+                            android:layout_height="22dp"
+                            android:layout_marginLeft="5dp"
+                            android:fontFamily="@font/hebbo"
+                            android:text="wooden-rope cot - No.22"
+                            android:textColor="@color/black"
+                            android:textSize="15dp"></TextView>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="36dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="₹2̶4̶3̶2̶"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="40dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="1045"
+                                android:textColor="@color/black"
+                                android:textSize="13dp"></TextView>
+
+                            <TextView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="45% off"
+                                android:textColor="#73980b"
+                                android:textSize="13dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="30dp"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rating23"></ImageView>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="@font/hebbo"
+                                android:text="4.7 ratings"
+                                android:textSize="13dp"></TextView>
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="110dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/agri11"
+                            android:layout_marginLeft="20dp"
+                            android:text="BUY NOW "
+                            android:textColor="@color/white"></androidx.appcompat.widget.AppCompatButton>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

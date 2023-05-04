@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".news41"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:elevation="20dp">
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/la"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/existnews4t">
+        </androidx.appcompat.widget.AppCompatImageButton>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="NEWS"
+            android:textColor="#73980b"
+            android:textStyle="bold"
+            android:fontFamily="@font/bruno"
+            android:textSize="17dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="80dp">
+        </TextView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            android:text="ENGLISH"
+            android:textSize="10dp"
+            android:background="@drawable/newsbtn"
+            android:textColor="@color/white"
+            android:id="@+id/eng4"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="700dp"
+        android:background="@drawable/news4tamil">
+    </LinearLayout>
+
+
+</LinearLayout>

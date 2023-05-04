@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.CALL_PHONE"
+        android:exported="true" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/paradise1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Paradise"
+        tools:targetApi="31">
+        <activity
+            android:name=".email"
+            android:exported="false" />
+        <activity
+            android:name=".equipments"
+            android:exported="false" />
+        <activity
+            android:name=".fertilizer"
+            android:exported="false" />
+        <activity
+            android:name=".notfound"
+            android:exported="false" />
+        <activity
+            android:name=".produts"
+            android:exported="false" />
+        <activity
+            android:name=".news9b"
+            android:exported="false" />
+        <activity
+            android:name=".news9"
+            android:exported="false" />
+        <activity
+            android:name=".news5b"
+            android:exported="false" />
+        <activity
+            android:name=".news5"
+            android:exported="false" />
+        <activity
+            android:name=".news3b3"
+            android:exported="false" />
+        <activity
+            android:name=".news3a3"
+            android:exported="false" />
+        <activity
+            android:name=".news42"
+            android:exported="false" />
+        <activity
+            android:name=".news41"
+            android:exported="false" />
+        <activity
+            android:name=".news"
+            android:exported="false" />
+        <activity
+            android:name=".artlist"
+            android:exported="false" />
+        <activity
+            android:name=".art6"
+            android:exported="false" />
+        <activity
+            android:name=".art5"
+            android:exported="false" />
+        <activity
+            android:name=".art4"
+            android:exported="false" />
+        <activity
+            android:name=".art3"
+            android:exported="false" />
+        <activity
+            android:name=".art2"
+            android:exported="false" />
+        <activity
+            android:name=".art1"
+            android:exported="false" />
+        <activity
+            android:name=".order"
+            android:exported="false" />
+        <activity
+            android:name=".spcl"
+            android:exported="false" />
+        <activity
+            android:name=".ename32"
+            android:exported="false" />
+        <activity
+            android:name=".ename31"
+            android:exported="false" />
+        <activity
+            android:name=".errornews22"
+            android:exported="false" />
+        <activity
+            android:name=".errornews2"
+            android:exported="false" />
+        <activity
+            android:name=".details"
+            android:exported="false" />
+        <activity
+            android:name=".toy7"
+            android:exported="false" />
+        <activity
+            android:name=".toy6"
+            android:exported="false" />
+        <activity
+            android:name=".toy5"
+            android:exported="false" />
+        <activity
+            android:name=".toy4"
+            android:exported="false" />
+        <activity
+            android:name=".toy3"
+            android:exported="false" />
+        <activity
+            android:name=".toy2"
+            android:exported="false" />
+        <activity
+            android:name=".wood5"
+            android:exported="false" />
+        <activity
+            android:name=".wood4"
+            android:exported="false" />
+        <activity
+            android:name=".wood33"
+            android:exported="false" />
+        <activity
+            android:name=".wood3"
+            android:exported="false" />
+        <activity
+            android:name=".pot6"
+            android:exported="false" />
+        <activity
+            android:name=".pot5"
+            android:exported="false" />
+        <activity
+            android:name=".pot4"
+            android:exported="false" />
+        <activity
+            android:name=".pot3"
+            android:exported="false" />
+        <activity
+            android:name=".pot2"
+            android:exported="false" />
+        <activity
+            android:name=".tryit"
+            android:exported="false" />
+        <activity
+            android:name=".news112"
+            android:exported="false" />
+        <activity
+            android:name=".news1"
+            android:exported="false" />
+        <activity
+            android:name=".artisans"
+            android:exported="false" />
+        <activity
+            android:name=".navi"
+            android:exported="false" />
+        <activity
+            android:name=".goa"
+            android:exported="false" />
+        <activity
+            android:name=".brinjal"
+            android:exported="false" />
+        <activity
+            android:name=".horsegram"
+            android:exported="false" />
+        <activity
+            android:name=".carrot"
+            android:exported="false" />
+        <activity
+            android:name=".greengram"
+            android:exported="false" />
+        <activity
+            android:name=".cotton"
+            android:exported="false" />
+        <activity
+            android:name=".banana"
+            android:exported="false" />
+        <activity
+            android:name=".ladys"
+            android:exported="false" />
+        <activity
+            android:name=".onion"
+            android:exported="false" />
+        <activity
+            android:name=".tomato"
+            android:exported="false" />
+        <activity
+            android:name=".graphblack"
+            android:exported="false" />
+        <activity
+            android:name=".markp"
+            android:exported="false" />
+        <activity
+            android:name=".grp"
+            android:exported="false" />
+        <activity
+            android:name=".adhome"
+            android:exported="false" />
+        <activity
+            android:name=".ushome"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

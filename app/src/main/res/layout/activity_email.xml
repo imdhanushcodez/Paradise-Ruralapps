@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".email"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/la"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/exist1">
+    </androidx.appcompat.widget.AppCompatImageButton>
+
+    <TextView
+        android:layout_width="340dp"
+        android:layout_height="30dp"
+        android:text="E M A I L"
+        android:fontFamily="@font/bruno"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp"
+        android:textColor="#73980b">
+    </TextView>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:text="mail your queries"
+        android:layout_marginLeft="125dp"
+        android:textStyle="italic">
+    </TextView>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:background="@drawable/editt"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:hint="SUBJECT "
+        android:textSize="13dp"
+        android:id="@+id/sub"
+        android:textStyle="normal"
+        android:fontFamily="@font/hebbo"
+        android:textColor="#73980b"
+        android:drawableStart="@drawable/baseline_subject_24"
+        android:drawablePadding="15dp"
+        android:paddingLeft="10dp">
+    </EditText>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="240dp"
+        android:background="@drawable/editt"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="13dp"
+        android:textStyle="normal"
+        android:fontFamily="@font/hebbo"
+        android:textColor="#73980b"
+        android:id="@+id/content">
+    </EditText>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/agri1"
+        android:text="EMAIL IT"
+        android:textColor="@color/white"
+        android:id="@+id/mail">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>
